@@ -1,0 +1,14 @@
+<package>
+  <description brief="roslibjs">
+
+     roslibjs
+
+  </description>
+  <author>Ryohei Ueda</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/roslibjs</url>
+
+</package>
+
+
