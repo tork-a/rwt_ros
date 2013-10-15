@@ -1,0 +1,9 @@
+[submodule "roslibjs/www/roslibjs"]
+	path = roslibjs/www/roslibjs
+	url = https://github.com/RobotWebTools/roslibjs.git
+[submodule "ros2djs/www/ros2djs"]
+	path = ros2djs/www/ros2djs
+	url = https://github.com/RobotWebTools/ros2djs.git
+[submodule "ros3djs/www/ros3djs"]
+	path = ros3djs/www/ros3djs
+	url = https://github.com/RobotWebTools/ros3djs.git
