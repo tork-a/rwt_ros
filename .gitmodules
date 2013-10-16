@@ -7,3 +7,6 @@
 [submodule "ros3djs/www/ros3djs"]
 	path = ros3djs/www/ros3djs
 	url = https://github.com/RobotWebTools/ros3djs.git
+[submodule "mjpegcanvas/www/mjpegcanvas"]
+	path = mjpegcanvas/www/mjpegcanvas
+	url = https://github.com/WPI-RAIL/mjpegcanvasjs.git

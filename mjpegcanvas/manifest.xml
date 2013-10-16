@@ -1,0 +1,14 @@
+<package>
+  <description brief="mjpegcanvas">
+
+     mjpegcanvas
+
+  </description>
+  <author>jskuser</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/mjpegcanvas</url>
+
+</package>
+
+
