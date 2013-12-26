@@ -1,24 +1,6 @@
 module.exports = function(grunt) {
   var pkg = grunt.file.readJSON('package.json');
   grunt.initConfig({
-    less: {
-      development: {
-        options: {
-          paths: ['../less/']
-        },
-        files: {
-          '../www/css/rwt_robot_monitor.css': '../less/rwt_robot_monitor.less'
-        }
-      },
-      production: {
-        options: {
-          paths: ['../less/']
-        },
-        files: {
-          '../www/css/rwt_robot_monitor.css': '../less/rwt_robot_monitor.less'
-        }
-      },
-    },
     concat: {
       build: {
         src: ['../src/*.js'],
@@ -30,8 +12,8 @@ module.exports = function(grunt) {
         report: 'min'
       },
       build: {
-        src: '../www/rwt_robot_monitor.js',
-        dest: '../www/rwt_robot_monitor.min.js'
+        src: '../www/roslibjs_experimental.js',
+        dest: '../www/roslibjs_experimental.min.js'
       }
     },
     jshint: {
@@ -40,12 +22,12 @@ module.exports = function(grunt) {
       },
       files: [
         'Gruntfile.js',
-        '../www/rwt_robot_monitor.js'
+        '../www/roslibjs_experimental.js'
       ]
     },
     watch: {
-      files: ['../src/*.js', 'Gruntfile.js', '.jshintrc', '../less/rwt_robot_monitor.less'],
-      tasks: ['build', 'less', 'doc']
+      files: ['../src/*.js', 'Gruntfile.js', '.jshintrc'],
+      tasks: ['build', 'doc']
     },
     jsdoc: {
       dist: {
@@ -64,7 +46,7 @@ module.exports = function(grunt) {
     }
   }
   
-  grunt.registerTask('build', ['concat', 'jshint', 'uglify', 'less']);
+  grunt.registerTask('build', ['concat', 'jshint', 'uglify']);
   grunt.registerTask('default', ['build']);
   grunt.registerTask('doc', ['jsdoc']);
 };
