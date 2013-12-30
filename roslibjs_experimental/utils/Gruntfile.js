@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     concat: {
       build: {
         src: ['../src/*.js'],
-        dest: '../www/rwt_robot_monitor.js'
+        dest: '../www/roslibjs_experimental.js'
       }
     },
     uglify: {
