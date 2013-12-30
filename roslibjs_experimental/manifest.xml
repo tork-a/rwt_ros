@@ -1,0 +1,14 @@
+<package>
+  <description brief="roslibjs_experimental">
+
+     roslibjs_experimental
+
+  </description>
+  <author>jskuser</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/roslibjs_experimental</url>
+  <depend package="roslibjs" />
+</package>
+
+
