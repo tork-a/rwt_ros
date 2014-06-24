@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package>
+  <description brief="roswww">
+    roswww
+  </description>
+  <maintainer email="iisaito@opensource-robotics.tokyo.jp">Isaac Isao Saito</maintainer>
+  <author>Jonathan Mace</author>
+  <author email="jihoonl@yujinrobot.com">Jihoon Lee</author>
+  <license>BSD</license>
+  <url type="website">http://ros.org/wiki/roswww</url>
+  
+  <depend package="rosbridge_server" />
+  <depend package="rospy" />
+</package>
