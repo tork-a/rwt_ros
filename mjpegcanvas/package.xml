@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <name>mjpegcanvas</name>
+  <version>0.0.0</version>
+  <description>The mjpegcanvas package</description>
+
+  <maintainer email="garaemon@gmail.com">garaemon</maintainer>
+  <author email="garaemon@gmail.com">garaemon</author>
+  <license>BSD</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>mjpeg_server</build_depend>
+  <run_depend>mjpeg_server</run_depend>
+
+  <export>
+  </export>
+</package>

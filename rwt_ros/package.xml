@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <name>rwt_ros</name>
+  <version>0.0.0</version>
+  <description>The rwt_ros package</description>
+  <maintainer email="ueda@jsk.imi.i.u-tokyo.ac.jp">Ryohei Ueda</maintainer>
+  <author email="ueda@jsk.imi.i.u-tokyo.ac.jp">Ryohei Ueda</author>
+
+  <license>BSD</license>
+  <url type="website">http://wiki.ros.org/rwt_ros</url>
+  <url type="repository">https://github.com/tork-a/rwt_ros</url>
+  <url type="bugtracker">https://github.com/tork-a/rwt_ros/issues</url>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>mjpegcanvas</run_depend>
+  <run_depend>ros2djs</run_depend>
+  <run_depend>ros3djs</run_depend>
+  <run_depend>ros3djs_experimental</run_depend>
+  <run_depend>roslibjs</run_depend>
+  <run_depend>roslibjs_experimental</run_depend>
+  <run_depend>roswww</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
