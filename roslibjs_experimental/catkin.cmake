@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(roslibjs)
+project(roslibjs_experimental)
 
 find_package(catkin REQUIRED)
 
