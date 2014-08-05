@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>ros2djs</name>
+  <name>roslibjs</name>
   <version>0.0.0</version>
-  <description>The ros2djs package</description>
+  <description>The roslibjs package</description>
 
   <maintainer email="garaemon@todo.todo">garaemon</maintainer>
   <author email="garaemon@todo.todo">garaemon</author>
