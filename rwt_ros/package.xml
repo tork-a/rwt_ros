@@ -19,7 +19,6 @@
   <run_depend>ros3djs_experimental</run_depend>
   <run_depend>roslibjs</run_depend>
   <run_depend>roslibjs_experimental</run_depend>
-  <run_depend>roswww</run_depend>
 
   <export>
     <metapackage/>
